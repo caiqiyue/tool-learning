@@ -24,7 +24,7 @@
 
 下面是这节课对应的 Docker 架构图：
 
-![Docker 架构原图](/Users/apple/Desktop/docker-learning/02-docker-architecture-source.png)
+![Docker 架构原图](assets/02-docker-architecture-source.png)
 
 你先不要急着记细节，先从整体上看这张图。
 

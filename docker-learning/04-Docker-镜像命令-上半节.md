@@ -22,15 +22,15 @@
 
 ### 2.1 Docker 服务相关命令
 
-![Docker 服务相关命令](/Users/apple/Desktop/docker-learning/04-docker-service-commands.png)
+![Docker 服务相关命令](assets/04-docker-service-commands.png)
 
 ### 2.2 Docker Hub 镜像页面示例
 
-![Docker Hub Redis 页面示例](/Users/apple/Desktop/docker-learning/04-docker-hub-redis-example.png)
+![Docker Hub Redis 页面示例](assets/04-docker-hub-redis-example.png)
 
 ### 2.3 Docker 镜像相关命令
 
-![Docker 镜像相关命令](/Users/apple/Desktop/docker-learning/04-docker-image-commands.png)
+![Docker 镜像相关命令](assets/04-docker-image-commands.png)
 
 ## 3. 先把“服务”和“镜像”分开理解
 
@@ -490,7 +490,7 @@ docker search redis
 
 你给的第二张图就是一个很好的例子。
 
-![Docker Hub Redis 页面示例](/Users/apple/Desktop/docker-learning/04-docker-hub-redis-example.png)
+![Docker Hub Redis 页面示例](assets/04-docker-hub-redis-example.png)
 
 通过 Docker Hub 页面，你通常能看到比命令行更多的信息，例如：
 

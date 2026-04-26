@@ -22,11 +22,11 @@
 
 ### 2.1 数据卷容器概念图
 
-![Docker 数据卷容器概念图](/Users/apple/Desktop/docker-learning/05-docker-volume-container-concept.png)
+![Docker 数据卷容器概念图](assets/05-docker-volume-container-concept.png)
 
 ### 2.2 配置数据卷容器命令图
 
-![Docker 配置数据卷容器](/Users/apple/Desktop/docker-learning/05-docker-volume-container-config.png)
+![Docker 配置数据卷容器](assets/05-docker-volume-container-config.png)
 
 ## 3. 先说结论：什么是数据卷容器
 

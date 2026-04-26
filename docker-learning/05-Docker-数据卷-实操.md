@@ -18,7 +18,7 @@
 
 ## 2. 先看本节配图
 
-![Docker 配置数据卷](/Users/apple/Desktop/docker-learning/05-docker-volume-practice.png)
+![Docker 配置数据卷](assets/05-docker-volume-practice.png)
 
 这张图里最核心的一句命令是：
 

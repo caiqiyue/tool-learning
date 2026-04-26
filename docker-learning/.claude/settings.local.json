@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"C:/Users/Administrator/.claude/projects/e--tool-learning-docker-learning/9c3e6483-8f42-4538-8ed1-98c4d121b5ca/tool-results/webfetch-1777197251222-zsqobz.png\" \"e:/tool-learning/docker-learning/assets/10-docker-vs-vm-architecture.png\")",
+      "Bash(cp \"C:/Users/Administrator/.claude/projects/e--tool-learning-docker-learning/9c3e6483-8f42-4538-8ed1-98c4d121b5ca/tool-results/webfetch-1777197250783-wx6jc3.png\" \"e:/tool-learning/docker-learning/assets/10-container-vs-vm-detail.png\")"
+    ]
+  }
+}

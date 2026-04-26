@@ -18,7 +18,7 @@
 
 ## 2. 先看本节配图
 
-![Docker 数据卷概念图](/Users/apple/Desktop/docker-learning/05-docker-volume-concept.png)
+![Docker 数据卷概念图](assets/05-docker-volume-concept.png)
 
 ## 3. 先从问题出发：为什么会出现数据卷
 

@@ -26,11 +26,11 @@
 
 ### 2.1 镜像制作方式图
 
-![Dockerfile 图一](/Users/apple/Desktop/docker-learning/07-dockerfile-1.png)
+![Dockerfile 图一](assets/07-dockerfile-1.png)
 
 ### 2.2 Dockerfile 概念图
 
-![Dockerfile 图二](/Users/apple/Desktop/docker-learning/07-dockerfile-2.png)
+![Dockerfile 图二](assets/07-dockerfile-2.png)
 
 ## 3. 先说结论：Dockerfile 是什么
 
@@ -684,6 +684,118 @@ Dockerfile 是描述镜像构建过程的声明式文本文件。它通过一系
 
 如果你能把这 5 个问题讲清楚，第七课就算掌握住了。
 
-## 38. 本节课一句话收尾
+## 38. Dockerfile 常用构建与操作命令示例
+
+### 8.1 构建镜像
+
+```bash
+# 基本构建命令
+docker build -t myapp:1.0 .
+
+# 指定 Dockerfile 路径构建
+docker build -t myapp:1.0 -f /path/to/Dockerfile /path/to/context
+
+# 构建时设置构建参数
+docker build -t myapp:1.0 --build-arg VERSION=1.0 .
+
+# 不使用缓存构建
+docker build -t myapp:1.0 --no-cache .
+```
+
+### 8.2 查看镜像
+
+```bash
+# 列出本地镜像
+docker images
+
+# 查看镜像详细信息
+docker inspect myapp:1.0
+
+# 查看镜像构建历史
+docker history myapp:1.0
+```
+
+### 8.3 运行容器
+
+```bash
+# 基于 Dockerfile 构建的镜像运行容器
+docker run -d --name myapp-container -p 8080:80 myapp:1.0
+
+# 交互式运行
+docker run -it myapp:1.0 /bin/bash
+
+# 运行并挂载数据卷
+docker run -d --name myapp-container -v /host/data:/container/data myapp:1.0
+```
+
+### 8.4 推送镜像到仓库
+
+```bash
+# 打标签
+docker tag myapp:1.0 registry.example.com/myapp:1.0
+
+# 推送到远程仓库
+docker push registry.example.com/myapp:1.0
+
+# 从仓库拉取镜像
+docker pull registry.example.com/myapp:1.0
+```
+
+### 8.5 清理与维护
+
+```bash
+# 删除本地镜像
+docker rmi myapp:1.0
+
+# 删除悬空镜像（无标签）
+docker image prune
+
+# 批量删除未使用的镜像
+docker image prune -a
+
+# 构建时清理缓存
+docker builder prune
+```
+
+### 8.6 多阶段构建示例
+
+```dockerfile
+# 第一阶段：构建
+FROM golang:1.21 AS builder
+WORKDIR /app
+COPY . .
+RUN go build -o myapp
+
+# 第二阶段：运行
+FROM alpine:latest
+WORKDIR /root/
+COPY --from=builder /app/myapp .
+CMD ["./myapp"]
+```
+
+### 8.7 .dockerignore 示例
+
+```text
+# 忽略版本控制文件
+.git
+.gitignore
+
+# 忽略敏感文件
+*.env
+*.pem
+*.key
+
+# 忽略构建产物和缓存
+node_modules
+dist
+build
+__pycache__
+
+# 忽略文档和日志
+*.md
+*.log
+```
+
+## 39. 本节课一句话收尾
 
 **Dockerfile 的本质，就是用一份可读、可复现的文本配方，把镜像构建过程标准化。**

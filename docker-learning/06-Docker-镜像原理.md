@@ -27,19 +27,19 @@
 
 ### 2.1 镜像原理总问题图
 
-![Docker 镜像原理图一](/Users/apple/Desktop/docker-learning/06-docker-image-principle-1.png)
+![Docker 镜像原理图一](assets/06-docker-image-principle-1.png)
 
 ### 2.2 Linux 文件系统与 bootfs / rootfs 图
 
-![Docker 镜像原理图二](/Users/apple/Desktop/docker-learning/06-docker-image-principle-2.png)
+![Docker 镜像原理图二](assets/06-docker-image-principle-2.png)
 
 ### 2.3 镜像分层与只读层 / 可写层图
 
-![Docker 镜像原理图三](/Users/apple/Desktop/docker-learning/06-docker-image-principle-3.png)
+![Docker 镜像原理图三](assets/06-docker-image-principle-3.png)
 
 ### 2.4 本节问题总结图
 
-![Docker 镜像原理图四](/Users/apple/Desktop/docker-learning/06-docker-image-principle-4.png)
+![Docker 镜像原理图四](assets/06-docker-image-principle-4.png)
 
 ## 3. 先说结论：Docker 镜像本质上是什么
 

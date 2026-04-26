@@ -21,11 +21,11 @@
 
 ### 2.1 Docker 容器相关命令图一
 
-![Docker 容器相关命令图一](/Users/apple/Desktop/docker-learning/04-docker-container-commands-1.png)
+![Docker 容器相关命令图一](assets/04-docker-container-commands-1.png)
 
 ### 2.2 Docker 容器相关命令图二
 
-![Docker 容器相关命令图二](/Users/apple/Desktop/docker-learning/04-docker-container-commands-2.png)
+![Docker 容器相关命令图二](assets/04-docker-container-commands-2.png)
 
 ## 3. 先建立一个核心认知
 
