@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com)",
+      "Bash(cp \"C:/Users/Administrator/.claude/projects/e--tool-learning/f2b16f21-5d2c-4900-b602-e3af8c14e29a/tool-results/webfetch-1777184526636-sv126t.png\" \"E:/tool-learning/docker-learning/assets/08-docker-compose-1.png\")",
+      "Bash(cp \"C:/Users/Administrator/.claude/projects/e--tool-learning/f2b16f21-5d2c-4900-b602-e3af8c14e29a/tool-results/webfetch-1777184527325-c8tgpt.png\" \"E:/tool-learning/docker-learning/assets/08-docker-compose-2.png\")",
+      "Bash(cp \"C:/Users/Administrator/.claude/projects/e--tool-learning/f2b16f21-5d2c-4900-b602-e3af8c14e29a/tool-results/webfetch-1777184526830-d6hwc5.png\" \"E:/tool-learning/docker-learning/assets/08-docker-compose-3.png\")",
+      "Bash(cp \"C:/Users/Administrator/.claude/projects/e--tool-learning/f2b16f21-5d2c-4900-b602-e3af8c14e29a/tool-results/webfetch-1777184526437-a46zc0.png\" \"E:/tool-learning/docker-learning/assets/08-docker-compose-4.png\")",
+      "Bash(cp \"C:/Users/Administrator/.claude/projects/e--tool-learning/f2b16f21-5d2c-4900-b602-e3af8c14e29a/tool-results/webfetch-1777184527387-bo7n88.png\" \"E:/tool-learning/docker-learning/assets/08-docker-compose-5.png\")",
+      "Bash(curl -o \"E:/tool-learning/docker-learning/assets/09-docker-private-registry-2.png\" \"https://minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com/ccv2%2F2026-04-26%2FMiniMax-M2.7%2F2005136643169718645%2F2a31244911ac56728a50ab39b52450478741920b7433e9bd405e8819a884df1b..png?Expires=1777280336&OSSAccessKeyId=LTAI5tGLnRTkBjLuYPjNcKQ8&Signature=T07%2BkSsmYOSt8quRipmE0K%2FvW34%3D\")",
+      "Bash(curl -o \"E:/tool-learning/docker-learning/assets/09-docker-private-registry-3.png\" \"https://minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com/ccv2%2F2026-04-26%2FMiniMax-M2.7%2F2005136643169718645%2F9d2adf516bb04bc326c974278c1cd474733ecf2fe7048681fa0bf4f9302d6c2b..png?Expires=1777280336&OSSAccessKeyId=LTAI5tGLnRTkBjLuYPjNcKQ8&Signature=7CSfwo1ErA6XS9OchJzPDjIQbGY%3D\")",
+      "Bash(file \"E:/tool-learning/docker-learning/assets/09-docker-private-registry-\"*.png)"
+    ]
+  }
+}
